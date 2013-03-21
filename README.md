@@ -42,7 +42,7 @@ Like all extensions set it up in the configuration file (e.g. *trinidad.yml*).
         thread_count: 1
         thread_priority: NORM
         # DJ specifics (optional as well) :
-        QUEUE: mailers,tasks
+        QUEUE: mailer,tasks
         READ_AHEAD: 3 # default 5
         SLEEP_DELAY: 2.5 # default 5
         #MIN_PRIORITY: 1
